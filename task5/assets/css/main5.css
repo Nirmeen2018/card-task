@@ -1,0 +1,84 @@
+:root{
+    margin: 0;
+    padding: 0;
+}
+.parent{
+    margin: 65px 0px 0px 50px;
+}
+.card{
+    width:300px;
+    background-color: rgb(249 251 251);
+    border: solid 1px rgb(151 151 233);
+    border-radius: 10px
+}
+.header {
+    display: flex;
+}
+.header p{
+    width:60%;
+    text-align: center;
+    font-size: 11px;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+.header i{
+    margin: auto;
+    color: rgb(101, 101, 240);
+    padding-left: 30px;
+    padding-top: 5px;
+}
+.img_area img{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: solid 10px #f2e7e7;
+    margin-inline: 40px;
+}
+.content {
+    text-align: center;
+}
+.content h1{
+    font-size: 20px;
+}
+.content p{
+    font-size: 10px;
+}
+.click-button{
+    text-align: center;
+}
+.click-button button{
+    color: white;
+    background-color: rgb(86, 137, 231);
+    border: none;
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 7px 15px;
+}
+.social-share{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    background-color: rgb(15, 15, 78);
+    width: 100%;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.row{
+    font-size: 10px;
+    width: 30%;
+    border-right: solid 1px rgb(222 222 240 / 50%);
+    padding-top: 10px;
+  
+}
+.row p{
+    color: white;
+}
+.row span ,i{
+    color: rgb(160, 20, 20);
+}
+
+.social-share span i{
+    padding-right: 15px;
+    padding-left: 10px;
+}
